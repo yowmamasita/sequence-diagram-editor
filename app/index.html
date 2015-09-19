@@ -8,7 +8,11 @@
 </head>
 <body>
 <div ng-controller="HomeController as hc">
-  <textarea name="textarea" rows="10" cols="50">Write something here</textarea>
+  <textarea
+    name="textarea" rows="10" cols="50"
+    ng-model="hc.source_code"
+    ng-model-options="{ debounce: 1000 }">
+  </textarea>
 </div>
 </body>
 </html>

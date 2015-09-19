@@ -1,12 +1,11 @@
 define([], function () {
   'use strict';
 
-  controller.$inject = ['$scope'];
+  controller.$inject = [];
 
-  function controller($scope) {
-    var _this = this;
-    _this.message = 'Hello World!';
-    $scope.message = 'I\'m a message in $scope';
+  function controller() {
+    var self = this;
+    self.source_code = 'A->B: Hello World!';
   }
 
   return controller;

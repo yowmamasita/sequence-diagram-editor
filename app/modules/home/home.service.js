@@ -4,7 +4,7 @@ define([], function () {
   service.$inject = [];
 
   function service() {
-
+    //
   }
 
   return service;
