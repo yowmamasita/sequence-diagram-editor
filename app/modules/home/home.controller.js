@@ -5,7 +5,7 @@ define(['jsd', 'canvg'], function (Diagram, canvg) {
 
   function controller(scope) {
     var self = this;
-    self.source_code = 'A->B: Hello World!';
+    self.source_code = 'Title: Here is a title\nA->B: Normal line\nB-->C: Dashed line\nC->>D: Open arrow\nD-->>A: Dashed open arrow';
 
     var diagram_div = document.getElementById('diagram');
 
