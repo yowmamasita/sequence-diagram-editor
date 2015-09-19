@@ -9,13 +9,13 @@
 </head>
 <body>
 <h1>Sequence Diagram Editor</h1>
-<a href="/img/grammar.png" target="_blank">Syntax map</a>
 <div ng-controller="HomeController as hc">
   <textarea
     name="textarea" rows="10" cols="50"
     ng-model="hc.source_code"
     ng-model-options="{ debounce: 1000 }">
   </textarea>
+  <a href="/img/grammar.png" target="_blank">Syntax map</a>
   <div>
       SVG<br>
       <div id="diagram"></div>
