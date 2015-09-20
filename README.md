@@ -1,16 +1,11 @@
-# UI Project Template #
+# Sequence Diagram Editor #
 
-Very basic project template for starting a UI project.
-
-## Requirements ##
-* Grunt CLI
-* NodeJS
-* Bower
+Based from [bramp/js-sequence-diagrams](https://bramp.github.io/js-sequence-diagrams/)
 
 ## How to initialize: ##
 
-    $ npm install
-    $ bower install
+    $ npm install && bower install
 
 ## How to run: ##
+
     $ grunt serve
