@@ -10,7 +10,7 @@ require.config({
   },
   shim: {
     angular: {exports: 'angular'},
-    underscore: {exports: 'underscore'},
+    underscore: {exports: '_'},
     raphael: {exports: 'Raphael'},
     jsd: {deps: ['underscore', 'raphael'], exports: 'Diagram'},
     rgbcolor: {exports: 'RGBColor'},

@@ -1,17 +1,17 @@
 exports.tasks = {
   connect: {
-    'serve.js': { }
+    serve: { }
   },
   watch: {
-    'serve.js': {
+    serve: {
       files: ['app/**/*.{js,html,css}']
     }
   }
 };
 
 exports.register = {
-  'serve': [
-    'connect:serve.js',
-    'watch:serve.js'
+  serve: [
+    'connect:serve',
+    'watch:serve'
   ]
 };
