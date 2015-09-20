@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sequence Diagram Editor</title>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script data-main="modules/main" src="/bower_components/requirejs/require.js"></script>
+</head>
+<body>
+<h1>Sequence Diagram Editor</h1>
+<div ng-controller="HomeController as hc">
+  <textarea
+    id="editor" rows="10" cols="50"
+    ng-model="hc.source_code"
+    ng-model-options="{ debounce: 1000 }">
+  </textarea>
+  <a href="/img/grammar.png" target="_blank">Syntax map</a>
+  <div>
+      SVG&nbsp;<a href ng-click="hc.download_svg($event)">Download</a><br>
+      <div id="diagram"></div>
+      Image&nbsp;<a href ng-click="hc.download_image($event)">Download</a><br>
+      <canvas id="canvas"></canvas>
+  </div>
+</div>
+</body>
+</html>

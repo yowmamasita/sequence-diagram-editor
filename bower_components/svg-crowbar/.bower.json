@@ -1,0 +1,13 @@
+{
+  "name": "svg-crowbar",
+  "_cacheHeaders": {
+    "ETag": "\"ae3a5c8e4f4044c77552ab1d7435e78ec23953c4\"",
+    "Content-Type": "application/javascript;charset=utf-8"
+  },
+  "_release": "e-tag:ae3a5c8e4",
+  "main": "index.js",
+  "_source": "https://cdn.rawgit.com/NYTimes/svg-crowbar/gh-pages/svg-crowbar.js",
+  "_target": "*",
+  "_originalSource": "https://cdn.rawgit.com/NYTimes/svg-crowbar/gh-pages/svg-crowbar.js",
+  "_direct": true
+}
