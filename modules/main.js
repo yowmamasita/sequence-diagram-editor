@@ -1,12 +1,12 @@
 require.config({
   paths: {
-    angular: 'bower_components/angular/angular.min',
-    underscore: 'bower_components/underscore/underscore-min',
-    raphael: 'bower_components/raphael/raphael-min',
-    jsd: 'bower_components/js-sequence-diagrams/build/sequence-diagram-min',
-    rgbcolor: 'bower_components/canvg/rgbcolor',
-    stackblur: 'bower_components/canvg/StackBlur',
-    canvg: 'bower_components/canvg/canvg',
+    angular: '../bower_components/angular/angular.min',
+    underscore: '../bower_components/underscore/underscore-min',
+    raphael: '../bower_components/raphael/raphael-min',
+    jsd: '../bower_components/js-sequence-diagrams/build/sequence-diagram-min',
+    rgbcolor: '../bower_components/canvg/rgbcolor',
+    stackblur: '../bower_components/canvg/StackBlur',
+    canvg: '../bower_components/canvg/canvg',
   },
   shim: {
     angular: {exports: 'angular'},
