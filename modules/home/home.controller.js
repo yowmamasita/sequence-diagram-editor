@@ -15,7 +15,7 @@ define(['jsd', 'canvg'], function (Diagram, canvg) {
       if (!val) return;
 
       diagram_div.innerHTML = '';
-      Diagram.parse(val).drawSVG('diagram', {theme: 'hand'});
+      Diagram.parse(val).drawSVG('diagram', {theme: 'simple'});
       var svg = diagram_div.querySelector('svg');
       canvg(canvas, svg.outerHTML);
     });
